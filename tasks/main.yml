@@ -1,0 +1,5 @@
+---
+- name: pkgs...
+  become: yes
+  become_user: root
+  package: name=vim state=present
